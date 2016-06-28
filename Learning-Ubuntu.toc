@@ -1,0 +1,7 @@
+\contentsline {part}{I\hspace {1em}M\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } d\IeC {\d i}ch v\IeC {\d u} l\IeC {\uhorn }u tr\IeC {\~\uhorn } \IeC {\dj }\IeC {\'a}m m\IeC {\^a}y tr\IeC {\^e}n Ubuntu}{1}{part.1}
+\contentsline {chapter}{\numberline {1}Grive}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u v\IeC {\`\ecircumflex } Grive}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t Grive}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Thi\IeC {\'\ecircumflex }t l\IeC {\d \acircumflex }p t\IeC {\`a}i kho\IeC {\h a}n ng\IeC {\uhorn }\IeC {\`\ohorn }i d\IeC {\`u}ng Grive}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}\IeC {\DJ }\IeC {\`\ocircumflex }ng b\IeC {\d \ocircumflex } d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u v\IeC {\'\ohorn }i Grive}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}C\IeC {\'a}c l\IeC {\d \ecircumflex }nh c\IeC {\h u}a \IeC {\'\uhorn }ng d\IeC {\d u}ng Grive}{4}{section.1.5}
