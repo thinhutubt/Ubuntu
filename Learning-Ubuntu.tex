@@ -1,0 +1,57 @@
+\documentclass[13pt,a4paper]{extreport}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{vietnam} %Bien dich duoc tieng Viet
+\usepackage{amsmath,amsfonts,amssymb} %Font toan
+\usepackage{type1cm}
+\usepackage{graphicx}
+\usepackage{subfig}
+\graphicspath{ {images/} }
+\usepackage[unicode]{hyperref} %Tu dong tao bookmark
+\usepackage{indentfirst} %Thut vao dau dong o tat ca cac doan
+\usepackage{listings} %Dinh dang code
+\usepackage{color} %Mau sac
+\usepackage[left=3.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} %Canh lề trái - phải - trên - dưới cho tài liệu
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=bash,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  captionpos=t,
+  breakatwhitespace=true,
+  tabsize=2
+}
+\begin{document}
+%\input{title-page.tex}
+\newpage
+
+\pagenumbering{roman}
+
+
+\tableofcontents
+
+\newpage
+\listoffigures
+ 
+%\newpage
+%\listoftables
+
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\part{Một số dịch vụ lưu trữ đám mây trên Ubuntu}
+%cloud computing
+\input{Grive}
+%\chapter{GitHub}
+\end{document}
