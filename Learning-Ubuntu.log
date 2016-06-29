@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.28)  29 JUN 2016 00:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.28)  29 JUN 2016 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,7 +854,7 @@ LaTeX Info: Redefining \nameref on input line 35.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./Learning-Ubuntu.toc
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 3.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 2.
 )
 \tf@toc=\write4
 \openout4 = `Learning-Ubuntu.toc'.
@@ -863,18 +863,21 @@ LaTeX Font Info:    Calculating math sizes for size <13> on input line 3.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./Learning-Ubuntu.lof)
+(./Learning-Ubuntu.lof
+LaTeX Font Info:    Try loading font information for T5+cmss on input line 8.
+ (/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmss.fd
+File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+))
 \tf@lof=\write5
 \openout5 = `Learning-Ubuntu.lof'.
 
  [2
 
-] [1
-
-] (./Grive.tex
+]
 Ch\uhorn \ohorn ng 1.
+(./Grive.tex
 LaTeX Font Info:    Try loading font information for T5+cmtt on input line 5.
-(/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmtt.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Overfull \hbox (15.5184pt too wide) in paragraph at lines 5--6
@@ -882,69 +885,145 @@ Overfull \hbox (15.5184pt too wide) in paragraph at lines 5--6
 ]\T5/cmtt/m/n/13 Google Drive
  []
 
-[2
+[1
 
-] <images/Allow-grive.png, id=73, 480.79625pt x 482.80376pt>
+] <images/Allow-grive.png, id=112, 480.79625pt x 482.80376pt>
 File: images/Allow-grive.png Graphic file (type png)
 
 <use images/Allow-grive.png>
 Package pdftex.def Info: images/Allow-grive.png used on input line 39.
 (pdftex.def)             Requested size: 206.73834pt x 207.60156pt.
-LaTeX Font Info:    Try loading font information for T5+cmss on input line 39.
 
-(/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmss.fd
-File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-<images/code-grive.png, id=74, 399.4925pt x 50.1875pt>
+<images/code-grive.png, id=113, 399.4925pt x 50.1875pt>
 File: images/code-grive.png Graphic file (type png)
 
 <use images/code-grive.png>
 Package pdftex.def Info: images/code-grive.png used on input line 41.
 (pdftex.def)             Requested size: 239.69734pt x 30.11272pt.
 
-<images/use-code-grive.png, id=75, 926.46124pt x 247.92625pt>
+<images/use-code-grive.png, id=114, 926.46124pt x 247.92625pt>
 File: images/use-code-grive.png Graphic file (type png)
 
 <use images/use-code-grive.png>
 Package pdftex.def Info: images/use-code-grive.png used on input line 43.
 (pdftex.def)             Requested size: 370.57793pt x 99.16873pt.
 
-<images/succ-grive.png, id=76, 926.46124pt x 140.525pt>
+<images/succ-grive.png, id=115, 926.46124pt x 140.525pt>
 File: images/succ-grive.png Graphic file (type png)
 
 <use images/succ-grive.png>
 Package pdftex.def Info: images/succ-grive.png used on input line 45.
 (pdftex.def)             Requested size: 370.57793pt x 56.20898pt.
- [3 <./images/Allow-grive.png> <./images/code-grive.png> <./images/use-code-gri
-ve.png> <./images/succ-grive.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 
-(./Learning-Ubuntu.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
-Package rerunfilecheck Info: File `Learning-Ubuntu.out' has not changed.
-(rerunfilecheck)             Checksum: 9299EDB8193A83EF2B29A608F7F4759B;1400.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2] [3 <./images/Allow-grive.png> <./images/code-grive.png> <./images/use-code-
+grive.png> <./images/succ-grive.png>]) (./Dropbox.tex
+<images/sign-up-dropbox.png, id=146, 403.5075pt x 259.97125pt>
+File: images/sign-up-dropbox.png Graphic file (type png)
+
+<use images/sign-up-dropbox.png>
+Package pdftex.def Info: images/sign-up-dropbox.png used on input line 13.
+(pdftex.def)             Requested size: 282.45332pt x 181.97862pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] <images/signup-dropbox-by-gmail.png, id=173, 478.78876pt x 510.90875pt>
+File: images/signup-dropbox-by-gmail.png Graphic file (type png)
+
+<use images/signup-dropbox-by-gmail.png>
+Package pdftex.def Info: images/signup-dropbox-by-gmail.png used on input line 
+37.
+(pdftex.def)             Requested size: 239.39378pt x 255.45375pt.
+
+<images/creat-account-dropbox-by-gmail.png, id=174, 317.185pt x 423.5825pt>
+File: images/creat-account-dropbox-by-gmail.png Graphic file (type png)
+
+<use images/creat-account-dropbox-by-gmail.png>
+Package pdftex.def Info: images/creat-account-dropbox-by-gmail.png used on inpu
+t line 39.
+(pdftex.def)             Requested size: 158.5921pt x 211.79073pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/Install-Dropbox.png, id=177, 363.3575pt x 61.22874pt>
+File: images/Install-Dropbox.png Graphic file (type png)
+
+<use images/Install-Dropbox.png>
+Package pdftex.def Info: images/Install-Dropbox.png used on input line 55.
+(pdftex.def)             Requested size: 254.3485pt x 42.8598pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/app-dropbox.png, id=179, 106.3975pt x 115.43124pt>
+File: images/app-dropbox.png Graphic file (type png)
+
+<use images/app-dropbox.png>
+Package pdftex.def Info: images/app-dropbox.png used on input line 64.
+(pdftex.def)             Requested size: 53.19861pt x 57.71547pt.
+ [5 <./images/sign-up-dropbox.png>]
+<images/sync-dropbox.png, id=189, 282.05376pt x 448.67625pt>
+File: images/sync-dropbox.png Graphic file (type png)
+
+<use images/sync-dropbox.png>
+Package pdftex.def Info: images/sync-dropbox.png used on input line 72.
+(pdftex.def)             Requested size: 112.81949pt x 179.46732pt.
+
+<images/sync-dropbox-folder.png, id=190, 192.72pt x 305.14pt>
+File: images/sync-dropbox-folder.png Graphic file (type png)
+
+<use images/sync-dropbox-folder.png>
+Package pdftex.def Info: images/sync-dropbox-folder.png used on input line 74.
+(pdftex.def)             Requested size: 111.77766pt x 176.98131pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./images/signup-dropbox-by-gmail.png> <./images/creat-account-dropbox-by-gm
+ail.png> <./images/Install-Dropbox.png> <./images/app-dropbox.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+ [7 <./images/sync-dropbox.png> <./images/sync-dropbox-folder.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+ (./Learning-Ubuntu.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+
+
+Package rerunfilecheck Warning: File `Learning-Ubuntu.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Learning-Ubuntu.out':
+(rerunfilecheck)             Before: 8C3F16FC816CB2DE96AA70BDF87B8749;2776
+(rerunfilecheck)             After:  584C00D995282529D43DC4BA6F3467E5;2828.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 13694 strings out of 493304
- 192259 string characters out of 6139871
- 326307 words of memory out of 5000000
- 16941 multiletter control sequences out of 15000+600000
- 22549 words of font info for 48 fonts, out of 8000000 for 9000
+ 13834 strings out of 493304
+ 194894 string characters out of 6139871
+ 311307 words of memory out of 5000000
+ 17032 multiletter control sequences out of 15000+600000
+ 24524 words of font info for 50 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,11n,49p,368b,1291s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/vntex/vnr/vnr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vn
-tex/vnr/vnr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnss10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on Learning-Ubuntu.pdf (6 pages, 149834 bytes).
+ 44i,11n,49p,528b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex
+/vnr/vnr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnsl12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/vntex/vnr/vnss10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/vntex/vnr/vnss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vnte
+x/vnr/vntt12.pfb>
+Output written on Learning-Ubuntu.pdf (9 pages, 305929 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 59 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 279 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
