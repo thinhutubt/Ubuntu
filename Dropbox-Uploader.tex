@@ -1,0 +1,213 @@
+\section{Dropbox Uploader}
+%Tai lieu tham khao: 
+% https://github.com/andreafabrizi/Dropbox-Uploader
+% http://raspi.tv/2013/how-to-use-dropbox-with-raspberry-pi
+\subsection{Giới thiệu về Dropbox Uploader}
+Về mặt cơ bản, \verb|Dropbox Uploader| cùng bản chất với \verb|Dropbox| (mục \ref{Sec:Dropbox}), nhưng vẫn có một số điểm khác:
+\begin{list}{--}{}
+\item Khi cần lưu trữ dữ liệu có dung lượng lớn mà không cần đồng bộ về máy tính.
+\item Upload lên trên web tự động với script đơn giản (viết script).
+\item Thích hợp cho những ứng dụng mà tính tự động, tiết kiệm dung lượng của máy tính: do dữ liệu trên máy khi được upload lên web rồi, thì chúng ta có thể xóa đi để giảm dung lượng và dữ liệu trên web vẫn không bị mất đi (sử dụng \verb|Dropbox| trong mục \ref{Sec:Dropbox} thì dữ liệu trên máy tính và trên web luôn đồng bộ với nhau).
+\end{list}
+
+Chúng ta chỉ thay đổi phương thức lưu trữ và đồng bộ dữ liệu giữa máy tính và web, về bản chất vẫn cần có tài khoản \verb|Dropbox|.
+\subsection{Tạo App trên Dropbox Platform}
+\label{Sub:dropbox-platform}
+Để sử dụng \verb|Dropbox Uploader| bạn cần tạo một \verb|App| cho tài khoản \verb|Dropbox|.
+\begin{list}{--}{}
+\item Truy cập vào địa chỉ sau (bạn cần nhập đăng nhập tài khoản \verb|Dropbox| khi truy cập vào địa chỉ):
+\begin{center}
+\verb|https://www.dropbox.com/developers/apps/create|
+\end{center}
+\item Khi đó giao diện như hình \ref{Fig:creat-app-dropbox}:
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.45]{images/creat-app-dropbox.png} 
+\end{center}
+\caption{Tạo \textsf{App} \textsf{Dropbox Platform}} \label{Fig:creat-app-dropbox}
+\end{figure}
+\begin{list}{+}{}
+\item \verb|Choose an API|: có 2 tùy chọn là  \verb|Dropbox API| và \verb|Dropbox Business API|.
+\item \verb|Choose the type of access you need|: có 2 tùy chọn là \verb|App folder| hoặc là \verb|Full Dropbox|.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.45]{images/App-full-dropbox.png} 
+\end{center}
+\caption{Tùy chọn của \textsf{Choose the type of access you need}} \label{Fig:App-full-dropbox}
+\end{figure}
+\item \verb|Name your app|: nhập vào tên \verb|App| bạn khởi tạo và click chọn \verb|I agree to Dropbox API Terms and Conditions|, chọn \verb|Create app|.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.45]{images/name-app-dropbox.png} 
+\end{center}
+\caption{Đặt tên cho App cần tạo} \label{Fig:name-app-dropbox}
+\end{figure}
+\end{list}
+\item Lấy thông tin \verb|Permission type|, \verb|App key| và \verb|App secret| của \verb|App| để sử dụng cho việc cài đặt \verb|Dropbox Uploader| (mục \ref{Sub:Install-dropbox-uploader}).
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.45]{images/key-dropbox.png} 
+\end{center}
+\caption{Thông tin của \textsf{App} đã khởi tạo} \label{Fig:key-app-dropbox}
+\end{figure}
+\end{list}
+\subsection{Cài đặt Dropbox Uploader}\label{Sub:Install-dropbox-uploader}
+\begin{enumerate}[{\it a.}]
+\item \textit{Đăng ký tài khoản Dropbox}:
+
+Xem mục \ref{Sub:sign-up-dropbox} trang \pageref{Sub:sign-up-dropbox}.
+\item \textit{Lấy thông tin App}
+
+Truy cập vào địa chỉ sau để lấy thông tin \verb|App| (bạn cần nhập đăng nhập tài khoản \verb|Dropbox| khi truy cập vào địa chỉ):
+\begin{center}
+\verb|https://www.dropbox.com/developers/apps/|
+\end{center}
+
+Truy cập vào \verb|App| tìm mã \verb|App key| và \verb|App secret| và kiểu \verb|App| là \verb|App folder| hay \verb|Full Dropbox| tương ứng với \verb|a| hoặc \verb|f|.
+\item \textit{Cài đặt Dropbox Uploader}
+\begin{list}{--}{}
+\item Nếu bạn chưa cài đặt \verb|git| thì cài đặt bằng lệnh sau:
+\begin{lstlisting}[language=bash]
+$ sudo apt-get install git
+\end{lstlisting}
+\item Sử dụng các lệnh sau để tải gói lệnh về máy:
+\begin{lstlisting}[language=bash]
+$ cd ~
+$ git clone https://github.com/andreafabrizi/Dropbox-Uploader.git
+\end{lstlisting}
+Nếu thành công sẽ có thư mục \verb|Dropbox-Uploader|.
+\item Cài đặt gói lệnh, dùng các lệnh sau:
+\begin{lstlisting}[language=bash]
+$ cd Dropbox-Uploader
+$ ./dropbox_uploader.sh 
+\end{lstlisting}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.5]{images/config-dropbox-uploader.png} 
+\end{center}
+\caption{Xác nhận thông tin \textsf{App} cho \textsf{Dropbox Uploader}} \label{Fig:config-dropbox-uploader}
+\end{figure}
+Nhập vào \verb|App key| và \verb|App secret| và kiểu \verb|Permission type| và nhập \verb|y| và \verb|Enter| để xác nhận thông tin, như hình \ref{Fig:type-key-app}:
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.5]{images/type-key-app.png} 
+\end{center}
+\caption{Nhập mã \textsf{App key} và \textsf{App secret}} \label{Fig:type-key-app}
+\end{figure}
+\item Copy địa chỉ web mà quá trình cài đặt thông báo, như hình \ref{Fig:web-dropbox-uploader}:
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.5]{images/web-dropbox-uploader.png} 
+\end{center}
+\caption{Copy địa chỉ web để xác nhận thông tin} \label{Fig:web-dropbox-uploader}
+\end{figure}
+\item Dán địa chỉ trên vào trình duyệt: cần đăng nhập vào Dropbox, click chọn \verb|Allow|
+\begin{figure}[!h]
+\begin{center}
+\subfloat[Click chọn \textsf{Allow} \label{Fig:Allow-dropbox-uploader}]
+	{\includegraphics[scale=.3]{images/Allow-dropbox-uploader.png}} \hspace{.5cm}
+	\subfloat[Kết nối với \textsf{App} thành công \label{Fig:succ-dropbox-uploader}]
+	{\includegraphics[scale=.3]{images/succ-dropbox-uploader.png}}
+\end{center}
+\caption{Kết nối đến \textsf{App} trên \textsf{Dropbox}}\label{Fig:succ-app-dropbox-uploader}
+\end{figure}
+\item Nhấn \verb|Enter| để hoàn thành cài đặt: xuất hiện dòng \verb|Setup completed|.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.5]{images/succ-setting-dropbox-uploader.png} 
+\end{center}
+\caption{Hoàn thành quá trình cài đặt \textsf{Dropbox Uploader}} \label{Fig:succ-setting-dropbox-uploader}
+\end{figure}
+\end{list}
+\end{enumerate}
+\subsection{Các lệnh trong Dropbox Uploader}
+Để sử dụng \verb|dropbox Uploader| cần thao tác qua tập tin \verb|dropbox_uploader.sh|, để đơn giản, chúng ta copy tập tin \verb|dropbox_uploader.sh| ra thư mục chính.
+\begin{lstlisting}[language=bash]
+$ cd Dropbox-Uploader
+$ cp dropbox_uploader.sh /home/minhnhut/
+\end{lstlisting}
+với \verb|/home/minhnhut/| tùy chỉnh theo đường dẫn của bạn.\\
+
+Cú pháp của lệnh như sau:
+\begin{lstlisting}[language=bash]
+$ ./dropbox_uploader.sh [PARAMETERS] COMMAND...
+\end{lstlisting}
+\begin{list}{--}{}
+\item Các tham số \verb|[PARAMETERS]|: bảng \ref{Tab:PARAMETERS}.
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{|c|c|p{10cm}|c}\cline{1-3}
+\textit{STT} & \textit{Tham số} & \centering{\textit{Giải thích}} & \\ \cline{1-3}
+1 & \verb|-f <FILENAME>| & Load the configuration file from a specific file \\ \cline{1-3}
+2 & \verb|-s| & Skip already existing files when download/upload. Default: Overwrite \\ \cline{1-3}
+3 & \verb|-d| & Enable DEBUG mode \\ \cline{1-3}
+4 & \verb|-q| & Quiet mode. Don't show progress meter or messages \\ \cline{1-3}
+5 & \verb|-h| & Show file sizes in human readable format \\ \cline{1-3}
+6 & \verb|-p| & Show cURL progress meter\\ \cline{1-3}
+7 & \verb|-k| & Doesn't check for SSL certificates (insecure)\\ \cline{1-3}
+\end{tabular}
+\end{center}
+\caption{Các tham số của gói lệnh \textsf{Dropbox Uploader}}\label{Tab:PARAMETERS}
+\end{table}
+\item Các lệnh thực thi \verb|COMMAND|: 
+\begin{list}{+}{}
+\item Lệnh \verb|upload <LOCAL_FILE/DIR ...> <REMOTE_FILE/DIR>|:
+
+Upload a local file or directory to a remote Dropbox folder.
+
+If the file is bigger than 150Mb the file is uploaded using small chunks (default 4Mb); in this case a . (dot) is printed for every chunk successfully uploaded and a * (star) if an error occurs (the upload is retried for a maximum of three times). Only if the file is smaller than 150Mb, the standard upload API is used, and if the -p option is used the default curl progress bar is displayed during the upload process.
+
+The local file/dir parameter supports wildcards expansion.
+\item Lệnh \verb|download <REMOTE_FILE/DIR> [LOCAL_FILE/DIR]|:
+
+Download file or directory from Dropbox to a local folder.
+\item Lệnh \verb|delete <REMOTE_FILE/DIR>|:
+
+Remove a remote file or directory from Dropbox. 
+\item Lệnh \verb|move <REMOTE_FILE/DIR> <REMOTE_FILE/DIR>|:
+
+Move or rename a remote file or directory.
+\item Lệnh \verb|copy <REMOTE_FILE/DIR> <REMOTE_FILE/DIR>|:
+
+Copy a remote file or directory.
+\item Lệnh \verb|mkdir <REMOTE_DIR>|:
+
+Create a remote directory on Dropbox.
+\item Lệnh \verb|list [REMOTE_DIR]|:
+
+List the contents of the remote Dropbox folder.
+\item Lệnh \verb|share <REMOTE_FILE>|:
+
+Get a public share link for the specified file or directory.
+\item Lệnh \verb|saveurl <URL> <REMOTE_DIR>|:
+
+Download a file from an URL to a Dropbox folder directly (the file is NOT downloaded locally).
+\item Lệnh \verb|info|:
+
+Print some info about your Dropbox account.
+\item Lệnh \verb|unlink|:
+
+Unlink the script from your Dropbox account.
+\end{list}
+\end{list}
+\subsection{Sử dụng Dropbox Uploader}
+Lưu ý: thư mục gốc trên \verb|Dropbox| là \verb|'/'|
+\begin{list}{--}{}
+\item Tải một tập tin (hoặc một thư mục) lên Dropbox:
+\begin{lstlisting}[language=bash]
+$ ./dropbox_uploader.sh upload /home/minhnhut/my_file.txt /leanring-ubuntu/my_file.txt
+\end{lstlisting}
+\item Tải một tập tin (hoặc thư mục) từ \verb|Dropbox| về máy: 
+\begin{lstlisting}[language=bash]
+$ ./dropbox_uploader.sh download /learning-ubuntu/ /home/minhnhut/
+\end{lstlisting}
+\item Xóa một file (hoặc thư mục) trên Dropbox:
+\begin{lstlisting}[language=bash]
+$ ./dropbox_uploader.sh delete /learning-ubuntu/my_file.txt
+\end{lstlisting}
+\item Xóa liên kết \verb|App| trên \verb|Dropbox| với máy tính:
+\begin{lstlisting}[language=bash]
+$ ./dropbox_uploader.sh unlink
+\end{lstlisting}
+Chọn \verb|y| và nhấn \verb|Enter| để xác nhận.
+\end{list}
