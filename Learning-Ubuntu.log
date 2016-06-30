@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.28)  29 JUN 2016 17:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.28)  30 JUN 2016 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,12 +497,16 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
 atched RF)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks21
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks22
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -692,7 +696,7 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count119
 \lst@gtempboxa=\box28
-\lst@token=\toks22
+\lst@token=\toks23
 \lst@length=\count120
 \lst@currlwidth=\dimen127
 \lst@column=\count121
@@ -735,7 +739,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen136
 \Gm@layouthoffset=\dimen137
 \Gm@layoutvoffset=\dimen138
-\Gm@dimlist=\toks23
+\Gm@dimlist=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
@@ -746,24 +750,24 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 (./Learning-Ubuntu.aux)
 \openout1 = `Learning-Ubuntu.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -772,12 +776,12 @@ LaTeX Font Info:    ... okay on input line 35.
 \scratchbox=\box30
 \nofMPsegments=\count131
 \nofMParguments=\count132
-\everyMPshowfont=\toks24
+\everyMPshowfont=\toks25
 \MPscratchCnt=\count133
 \MPscratchDim=\dimen140
 \MPnumerator=\count134
 \makeMPintoPDFobject=\count135
-\everyMPtoPDFconversion=\toks25
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -799,7 +803,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -809,9 +813,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (./Learning-Ubuntu.out) (./Learning-Ubuntu.out)
 \@outlinefile=\write3
@@ -887,28 +891,28 @@ Overfull \hbox (15.5184pt too wide) in paragraph at lines 5--6
 
 [1
 
-] <images/Allow-grive.png, id=112, 480.79625pt x 482.80376pt>
+] <images/Allow-grive.png, id=160, 480.79625pt x 482.80376pt>
 File: images/Allow-grive.png Graphic file (type png)
 
 <use images/Allow-grive.png>
 Package pdftex.def Info: images/Allow-grive.png used on input line 39.
 (pdftex.def)             Requested size: 206.73834pt x 207.60156pt.
 
-<images/code-grive.png, id=113, 399.4925pt x 50.1875pt>
+<images/code-grive.png, id=161, 399.4925pt x 50.1875pt>
 File: images/code-grive.png Graphic file (type png)
 
 <use images/code-grive.png>
 Package pdftex.def Info: images/code-grive.png used on input line 41.
 (pdftex.def)             Requested size: 239.69734pt x 30.11272pt.
 
-<images/use-code-grive.png, id=114, 926.46124pt x 247.92625pt>
+<images/use-code-grive.png, id=162, 926.46124pt x 247.92625pt>
 File: images/use-code-grive.png Graphic file (type png)
 
 <use images/use-code-grive.png>
 Package pdftex.def Info: images/use-code-grive.png used on input line 43.
 (pdftex.def)             Requested size: 370.57793pt x 99.16873pt.
 
-<images/succ-grive.png, id=115, 926.46124pt x 140.525pt>
+<images/succ-grive.png, id=163, 926.46124pt x 140.525pt>
 File: images/succ-grive.png Graphic file (type png)
 
 <use images/succ-grive.png>
@@ -920,7 +924,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2] [3 <./images/Allow-grive.png> <./images/code-grive.png> <./images/use-code-
 grive.png> <./images/succ-grive.png>]) (./Dropbox.tex
-<images/sign-up-dropbox.png, id=146, 403.5075pt x 259.97125pt>
+<images/sign-up-dropbox.png, id=194, 403.5075pt x 259.97125pt>
 File: images/sign-up-dropbox.png Graphic file (type png)
 
 <use images/sign-up-dropbox.png>
@@ -930,7 +934,7 @@ Package pdftex.def Info: images/sign-up-dropbox.png used on input line 13.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] <images/signup-dropbox-by-gmail.png, id=173, 478.78876pt x 510.90875pt>
+[4] <images/signup-dropbox-by-gmail.png, id=221, 478.78876pt x 510.90875pt>
 File: images/signup-dropbox-by-gmail.png Graphic file (type png)
 
 <use images/signup-dropbox-by-gmail.png>
@@ -938,7 +942,7 @@ Package pdftex.def Info: images/signup-dropbox-by-gmail.png used on input line
 37.
 (pdftex.def)             Requested size: 239.39378pt x 255.45375pt.
 
-<images/creat-account-dropbox-by-gmail.png, id=174, 317.185pt x 423.5825pt>
+<images/creat-account-dropbox-by-gmail.png, id=222, 317.185pt x 423.5825pt>
 File: images/creat-account-dropbox-by-gmail.png Graphic file (type png)
 
 <use images/creat-account-dropbox-by-gmail.png>
@@ -949,7 +953,7 @@ t line 39.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/Install-Dropbox.png, id=177, 363.3575pt x 61.22874pt>
+<images/Install-Dropbox.png, id=225, 363.3575pt x 61.22874pt>
 File: images/Install-Dropbox.png Graphic file (type png)
 
 <use images/Install-Dropbox.png>
@@ -959,21 +963,21 @@ Package pdftex.def Info: images/Install-Dropbox.png used on input line 55.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/app-dropbox.png, id=179, 106.3975pt x 115.43124pt>
+<images/app-dropbox.png, id=227, 106.3975pt x 115.43124pt>
 File: images/app-dropbox.png Graphic file (type png)
 
 <use images/app-dropbox.png>
 Package pdftex.def Info: images/app-dropbox.png used on input line 64.
 (pdftex.def)             Requested size: 53.19861pt x 57.71547pt.
  [5 <./images/sign-up-dropbox.png>]
-<images/sync-dropbox.png, id=189, 282.05376pt x 448.67625pt>
+<images/sync-dropbox.png, id=237, 282.05376pt x 448.67625pt>
 File: images/sync-dropbox.png Graphic file (type png)
 
 <use images/sync-dropbox.png>
 Package pdftex.def Info: images/sync-dropbox.png used on input line 72.
 (pdftex.def)             Requested size: 112.81949pt x 179.46732pt.
 
-<images/sync-dropbox-folder.png, id=190, 192.72pt x 305.14pt>
+<images/sync-dropbox-folder.png, id=238, 192.72pt x 305.14pt>
 File: images/sync-dropbox-folder.png Graphic file (type png)
 
 <use images/sync-dropbox-folder.png>
@@ -985,29 +989,182 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6 <./images/signup-dropbox-by-gmail.png> <./images/creat-account-dropbox-by-gm
 ail.png> <./images/Install-Dropbox.png> <./images/app-dropbox.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
- [7 <./images/sync-dropbox.png> <./images/sync-dropbox-folder.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+(./Dropbox-Uploader.tex [7 <./images/sync-dropbox.png> <./images/sync-dropbox-f
+older.png>]
+Overfull \hbox (5.04733pt too wide) in paragraph at lines 13--14
+[]\T5/cmr/m/n/13 ^^^º sû döng []\T5/cmtt/m/n/13 Dropbox Uploader \T5/cmr/m/n/13
+ b¤n c¦n t¤o mët []\T5/cmtt/m/n/13 App \T5/cmr/m/n/13 cho t i kho£n []\T5/cmtt/
+m/n/13 Dropbox\T5/cmr/m/n/13 . 
+ []
+
+<images/creat-app-dropbox.png, id=271, 859.21pt x 548.0475pt>
+File: images/creat-app-dropbox.png Graphic file (type png)
+
+<use images/creat-app-dropbox.png>
+Package pdftex.def Info: images/creat-app-dropbox.png used on input line 22.
+(pdftex.def)             Requested size: 386.64093pt x 246.6191pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (42.19106pt too wide) in paragraph at lines 27--28
+[][]\T5/cmtt/m/n/13 Choose an API\T5/cmr/m/n/13 : câ 2 tòy chån l  []\T5/cmtt/m
+/n/13 Dropbox API \T5/cmr/m/n/13 v  []\T5/cmtt/m/n/13 Dropbox Business API\T5/c
+mr/m/n/13 . 
+ []
+
+<images/App-full-dropbox.png, id=272, 845.1575pt x 247.92625pt>
+File: images/App-full-dropbox.png Graphic file (type png)
+
+<use images/App-full-dropbox.png>
+Package pdftex.def Info: images/App-full-dropbox.png used on input line 31.
+(pdftex.def)             Requested size: 380.31737pt x 111.56578pt.
+
+Overfull \hbox (20.62889pt too wide) in paragraph at lines 28--35
+[][]\T5/cmtt/m/n/13 Choose the type of access you need\T5/cmr/m/n/13 : câ 2 tòy
+ chån l  []\T5/cmtt/m/n/13 App folder
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/name-app-dropbox.png, id=273, 827.09pt x 288.07625pt>
+File: images/name-app-dropbox.png Graphic file (type png)
+
+<use images/name-app-dropbox.png>
+Package pdftex.def Info: images/name-app-dropbox.png used on input line 38.
+(pdftex.def)             Requested size: 372.18706pt x 129.6331pt.
+
+Overfull \hbox (26.02765pt too wide) in paragraph at lines 35--42
+[]\T5/cmtt/m/n/13 I agree to Dropbox API Terms and Conditions\T5/cmr/m/n/13 , c
+hån []\T5/cmtt/m/n/13 Create app\T5/cmr/m/n/13 .
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/key-dropbox.png, id=275, 839.135pt x 191.71625pt>
+File: images/key-dropbox.png Graphic file (type png)
+
+<use images/key-dropbox.png>
+Package pdftex.def Info: images/key-dropbox.png used on input line 46.
+(pdftex.def)             Requested size: 377.60725pt x 86.2715pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8] [9 <./images/creat-app-dropbox.png> <./images/App-full-dropbox.png> <./imag
+es/name-app-dropbox.png>]
+Overfull \hbox (5.15562pt too wide) in paragraph at lines 63--64
+[]\T5/cmr/m/n/13 Truy cªp v o []\T5/cmtt/m/n/13 App \T5/cmr/m/n/13 t¼m m¢ []\T5
+/cmtt/m/n/13 App key \T5/cmr/m/n/13 v  []\T5/cmtt/m/n/13 App secret \T5/cmr/m/n
+/13 v  kiºu []\T5/cmtt/m/n/13 App \T5/cmr/m/n/13 l  []\T5/cmtt/m/n/13 App folde
+r
+ []
+
+<images/config-dropbox-uploader.png, id=289, 689.57625pt x 437.635pt>
+File: images/config-dropbox-uploader.png Graphic file (type png)
+
+<use images/config-dropbox-uploader.png>
+Package pdftex.def Info: images/config-dropbox-uploader.png used on input line 
+83.
+(pdftex.def)             Requested size: 344.78728pt x 218.81696pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/type-key-app.png, id=291, 829.0975pt x 261.97874pt>
+File: images/type-key-app.png Graphic file (type png)
+
+<use images/type-key-app.png>
+Package pdftex.def Info: images/type-key-app.png used on input line 90.
+(pdftex.def)             Requested size: 414.54774pt x 130.98904pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/web-dropbox-uploader.png, id=293, 823.075pt x 172.645pt>
+File: images/web-dropbox-uploader.png Graphic file (type png)
+
+<use images/web-dropbox-uploader.png>
+Package pdftex.def Info: images/web-dropbox-uploader.png used on input line 97.
+
+(pdftex.def)             Requested size: 411.53648pt x 86.32228pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/Allow-dropbox-uploader.png, id=294, 612.2875pt x 320.19624pt>
+File: images/Allow-dropbox-uploader.png Graphic file (type png)
+
+<use images/Allow-dropbox-uploader.png>
+Package pdftex.def Info: images/Allow-dropbox-uploader.png used on input line 1
+05.
+(pdftex.def)             Requested size: 183.68767pt x 96.0596pt.
+
+<images/succ-dropbox-uploader.png, id=295, 598.235pt x 279.0425pt>
+File: images/succ-dropbox-uploader.png Graphic file (type png)
+
+<use images/succ-dropbox-uploader.png>
+Package pdftex.def Info: images/succ-dropbox-uploader.png used on input line 10
+7.
+(pdftex.def)             Requested size: 179.47188pt x 83.7134pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/succ-setting-dropbox-uploader.png, id=296, 432.61626pt x 100.375pt>
+File: images/succ-setting-dropbox-uploader.png Graphic file (type png)
+
+<use images/succ-setting-dropbox-uploader.png>
+Package pdftex.def Info: images/succ-setting-dropbox-uploader.png used on input
+ line 114.
+(pdftex.def)             Requested size: 216.3076pt x 50.18736pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (28.12117pt too wide) in paragraph at lines 121--122
+[]\T5/cmr/m/n/13 ^^^º sû döng []\T5/cmtt/m/n/13 dropbox Uploader \T5/cmr/m/n/13
+ c¦n thao t¡c qua tªp tin []\T5/cmtt/m/n/13 dropbox_uploader.sh\T5/cmr/m/n/13 ,
+
+ []
+
+[10 <./images/key-dropbox.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+[11 <./images/config-dropbox-uploader.png> <./images/type-key-app.png> <./image
+s/web-dropbox-uploader.png>]
+Overfull \hbox (19.76431pt too wide) in paragraph at lines 136--146
+ [] 
+ []
+
+[12 <./images/Allow-dropbox-uploader.png> <./images/succ-dropbox-uploader.png> 
+<./images/succ-setting-dropbox-uploader.png>] [13])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
  (./Learning-Ubuntu.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package rerunfilecheck Info: File `Learning-Ubuntu.out' has not changed.
+(rerunfilecheck)             Checksum: 8D10C9136CF2FEF34CE4FF3BD8746251;4056.
 
 
-Package rerunfilecheck Warning: File `Learning-Ubuntu.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: Checksums for `Learning-Ubuntu.out':
-(rerunfilecheck)             Before: 8C3F16FC816CB2DE96AA70BDF87B8749;2776
-(rerunfilecheck)             After:  584C00D995282529D43DC4BA6F3467E5;2828.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 13834 strings out of 493304
- 194894 string characters out of 6139871
- 311307 words of memory out of 5000000
- 17032 multiletter control sequences out of 15000+600000
- 24524 words of font info for 50 fonts, out of 8000000 for 9000
+ 14004 strings out of 493304
+ 198332 string characters out of 6139871
+ 311675 words of memory out of 5000000
+ 17137 multiletter control sequences out of 15000+600000
+ 25345 words of font info for 51 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,11n,49p,528b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
@@ -1019,11 +1176,12 @@ onts/type1/vntex/vnr/vnr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex
 usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnsl12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/vntex/vnr/vnss10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/vntex/vnr/vnss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vnte
-x/vnr/vntt12.pfb>
-Output written on Learning-Ubuntu.pdf (9 pages, 305929 bytes).
+x/vnr/vnti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vntt12.pf
+b>
+Output written on Learning-Ubuntu.pdf (16 pages, 522463 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 243 compressed objects within 3 object streams
- 96 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 363 compressed objects within 4 object streams
+ 145 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
