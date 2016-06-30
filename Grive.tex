@@ -1,12 +1,12 @@
-\chapter{Grive}
+\section{Grive}
 %Tai lieu tham khao: https://www.howtoforge.com/tutorial/sync-documents-with-google-drive-on-ubuntu-linux/
-\section{Giới thiệu về Grive}
+\subsection{Giới thiệu về Grive}
 \begin{list}{--}{}
 \item Với hệ điều hành Ubuntu, bạn không sử dụng được ứng dụng \verb|Google Drive| như trên hệ điều hành Windows, Mac hoặc Android mà thay vào đó chúng ta sử dụng ứng dụng \verb|Grive|.
 \item \verb|Grive| có thể được tải bằng mã nguồn hay bằng gói \verb|deb|.
 \item Trong bài viết này, mình chọn cách cài đặt ứng dụng \verb|Grive| bằng mã nguồn.
 \end{list}
-\section{Cài đặt Grive}
+\subsection{Cài đặt Grive}
 \begin{list}{--}{}
 \item[] Gõ các lệnh sau:
 \begin{lstlisting}[language=bash]
@@ -15,7 +15,7 @@ $ sudo apt-get update
 $ sudo apt-get install grive
 \end{lstlisting}
 \end{list}
-\section{Thiết lập tài khoản người dùng Grive}\label{Sec:setting-grive}
+\subsection{Thiết lập tài khoản người dùng Grive}\label{Sec:setting-grive}
 \begin{list}{--}{}
 \item Đầu tiên, tạo một thư mục mà bạn muốn động bộ hóa lên Grive khi làm việc sau này: Có thể làm theo cách dưới -- tạo liên kết kết biểu tượng đến thư mục cần lưu.
 \begin{lstlisting}[language=bash]
@@ -48,7 +48,7 @@ $ grive -a
 \end{figure}
 \end{list}
 \end{list}
-\section{Đồng bộ dữ liệu với Grive}
+\subsection{Đồng bộ dữ liệu với Grive}
 \begin{list}{--}{}
 \item Sau khi đã thực hiện bước cài đặt ở mục  \ref{Sec:setting-grive}, ta không cần phải đăng nhập lại mỗi khi đồng bộ.
 \item Sử dụng lệnh sau để đồng bộ dữ liệu lên \verb|Google Drive|:
@@ -60,7 +60,8 @@ $ grive sync
 $ grive --dry-run
 \end{lstlisting}
 \end{list}
-\section{Các lệnh của ứng dụng Grive}
+\newpage
+\subsection{Các lệnh của ứng dụng Grive}
 \begin{list}{--}{}
 \item[] Các lệnh mở rộng với \verb|Grive|:
 \begin{lstlisting}[language=bash]
